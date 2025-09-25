@@ -1,0 +1,34 @@
+# Log files
+logs/*.log
+logs/cron.log
+
+# Temporary files
+*.tmp
+*.temp
+/tmp/
+
+# AWS credentials (just in case)
+.aws/
+*.pem
+*.key
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
